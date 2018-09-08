@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+ <head></head>
+ <body scroll="no">
+  <hta:application id="oHTA" applicationname="myApp" windowstate="maximize" caption="no"> 
+   <hta:application caption="yes" icon="./images/ICON.ico"> 
+    <meta name="Generator" content="Arc WebSoft" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>晚会抽奖系统</title>
+    <link href="style/ini.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script/js.js"></script>
+    <script type="text/javascript" src="script/ini.js"></script> 
+    <div id="ctrl"></div>
+    <div class="oneOut">
+     <div></div>
+    </div>
+    <div class="CTRL" title="参数设置"></div>
+    <div class="OFF" title="关闭本程序">
+     关闭
+    </div>
+    <div class="Top">
+     <div id="Go">
+      <fieldset class="MainBG">
+       <div id="Main">
+        <h2 class="title"><input class="QD" onclick="group();" type="button" value="启动抽奖系统" /></h2>
+        <div class="input">
+         <br />
+        </div>
+       </div>
+       <div id="input">
+        <input id="start" name="start" type="button" value="开始(空格)" />
+        <input id="end" name="end" type="button" value="停止(空格)" />
+        <input id="login" name="login" type="button" value="下一组(回车)" />
+       </div>
+      </fieldset>
+     </div>
+     <div id="out">
+      <fieldset>
+       <legend> 中奖结果 </legend>
+       <ul id="tableOUT">
+        <li style="display:none"></li>
+       </ul>
+      </fieldset>
+     </div>
+    </div>
+    <div class="End" align="center">
+     <ul></ul>
+    </div>
+    <script type="text/javascript" src="http://www.clicki.cn/boot/44647"></script>
+   </hta:application>
+  </hta:application>
+ </body>
+</html>
